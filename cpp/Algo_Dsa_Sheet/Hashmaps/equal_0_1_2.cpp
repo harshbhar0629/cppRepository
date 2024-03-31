@@ -34,8 +34,8 @@ public:
 int main(){
     string s;
     cin >> s;
-    Solution s;
-    cout << s.getSubstringWithEqual012(s);
+    Solution s1;
+    cout << s1.getSubstringWithEqual012(s);
 
     return 0;
 }
