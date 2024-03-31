@@ -32,7 +32,10 @@ public:
 };
 
 int main(){
-    
+    string s;
+    cin >> s;
+    Solution s;
+    cout << s.getSubstringWithEqual012(s);
 
     return 0;
 }
