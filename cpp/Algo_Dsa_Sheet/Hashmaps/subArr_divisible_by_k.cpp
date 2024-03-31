@@ -2,8 +2,7 @@
 using namespace std;
 //https://leetcode.com/problems/subarray-sums-divisible-by-k/
 
-class Solution
-{
+class Solution{
 public:
     int subarraysDivByK(vector<int> &nums, int k)
     {
