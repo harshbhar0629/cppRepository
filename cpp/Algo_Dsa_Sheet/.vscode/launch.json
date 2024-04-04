@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Hashmaps",
-      "program": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Hashmaps/build/Debug/outDebug",
+      "cwd": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Heaps",
+      "program": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Heaps/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
