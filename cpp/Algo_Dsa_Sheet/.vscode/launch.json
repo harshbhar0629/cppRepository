@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Heaps",
-      "program": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Heaps/build/Debug/outDebug",
+      "cwd": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Binary_Search",
+      "program": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Binary_Search/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
