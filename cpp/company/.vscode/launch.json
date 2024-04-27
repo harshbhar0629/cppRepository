@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Stack_Queue",
-      "program": "f:/cppRepository/cpp/Algo_Dsa_Sheet/Stack_Queue/build/Debug/outDebug",
+      "cwd": "f:/cppRepository/cpp/company",
+      "program": "f:/cppRepository/cpp/company/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
