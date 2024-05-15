@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
 //  sorted paths mean that the expected output should be in alphabetical order.
 
 void f(int i, int j, string s, vector<string> &ans, vector<vector<int>> &vis, vector<vector<int>> &arr, int n)
@@ -53,6 +54,63 @@ vector<string> searchMaze(vector<vector<int>> &arr, int n)
   }
   return ans;
 }
+
+class Solution
+{
+  int vis[10][10];
+  string direction = "LRUD";
+  int dx[4] = {-1, 1, 0, 0};
+  int dy[4] = {0, 0, -1, 1};
+  vector<string> ans;
+
+  void f(vector<vector<int>> &m, string &s, int r, int c, const int n)
+  {
+
+    if (r == n - 1 and c == n - 1)
+    {
+      ans.push_back(s);
+      return;
+    }
+    vis[r][c] = 1;
+    for (int d = 0; d < 4; d++)
+    {
+      int nr = r + dy[d];
+      int nc = c + dx[d];
+      if (nr < 0 || nc < 0 || nr >= n || nc >= n || m[nr][nc] == 0 || vis[nr][nc] != -1)
+      {
+        continue;
+      }
+
+      s += direction[d];
+      f(m, s, nr, nc, n);
+
+      s.pop_back();
+      // vis[nr][nc] = -1;
+    }
+    vis[r][c] = -1;
+  }
+
+public:
+  vector<string> findPath(vector<vector<int>> &m, int n)
+  {
+    if (m[n - 1][n - 1] == 0 || m[0][0] == 0)
+    {
+      return {};
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+      for (int j = 0; j < 10; j++)
+      {
+        vis[i][j] = -1;
+      }
+    }
+    string s = "";
+    f(m, s, 0, 0, n);
+
+    return ans;
+  }
+};
 
 int main()
 {
