@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/cpp/codeforces/cc/starters_124",
-      "program": "f:/cpp/codeforces/cc/starters_124/build/Debug/outDebug",
+      "cwd": "f:/cppRepository/cpp/codeforces/contest_945",
+      "program": "f:/cppRepository/cpp/codeforces/contest_945/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
